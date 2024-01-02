@@ -77,19 +77,9 @@ export class DashBoard extends React.Component {
                                 <div key={obj.id}>
                                     <p className='dashboard-icon'>{obj.icon}</p>
                                     <p className='dashboard-tag'>{obj.tag}</p>
-                                    # Add the remote repository if not added already
-git remote add origin https://github.com/govardhan1213/React-Project.git
-
-# Fetch changes from the remote 'main' branch
-git fetch origin main
-
-# Rebase your changes on top of the changes from the remote 'main' branch
-git rebase origin/main
-
-# Resolve any conflicts if there are any during the rebase
-
-# Push your changes to the remote 'main' branch
-git push --set-upstream origin main
+                                    
+                                   
+                                   
 
 
                                     <p className='dashboard-count'>{obj.count}</p>
