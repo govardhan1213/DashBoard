@@ -1,0 +1,92 @@
+/* ................................Login-Page Here..................... */
+.h4-tag-sign-in{
+    margin-top: -2.5vh;
+}
+.alternative-sign-in-div{
+    display: flex;
+    margin: 2vh 0;
+}
+.google-apple-sign-in{
+    display: flex;
+    justify-content: center;
+    width: 12.5vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+.google-apple-sign-in:first-of-type{
+    margin-left: 0.2vw;
+}
+.google-apple-sign-in:last-of-type{
+    margin-left: 1.5vw;
+}
+.google-apple-sign-in>p{
+    margin: 1.3vh 0 0 0.5vw;
+    color: rgb(109, 109, 109);
+    font-size: 1vw;
+}
+.google-apple-sign-in>.sign-in-icon{
+    margin-top: 1vh;
+    color: blueviolet;
+    font-size: 1.3vw;
+}
+.login-form-div{
+    background-color: rgba(121, 153, 212,0.3);
+    width: 70vw;
+    height: 100vh;
+    margin-left: -10vw;
+    clip-path: polygon(14.4% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+.login-form-sub{
+    margin: 15vh 0 0 20vw;
+}
+.form_elements{
+    width: 23vw;
+    height: 30vh;
+    padding: 2vw;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.form_elements>label{
+    font-weight: bold;
+}
+.form_elements>input{
+    width: 22.5vw;
+    height: 4vh;
+    font-size: 1vw;
+    margin: 1vh 0;
+    border: 1px solid rgba(97, 97, 97, 0.5);
+    background-color: white;
+    border-radius: 5px ;
+}
+.sign-in{
+    width: 23vw;
+    height: 4vh;
+    color: white;
+    font-size: 1vw;
+    margin-top: 1.2vh;
+    background-color: rgb(0, 127, 253);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forget-password{
+    font-size: 1vw;
+    color: rgb(0, 181, 252);
+    text-decoration: none;
+}
+.new-account{
+    color: rgb(117, 117, 117);
+    margin-left: 4vw;
+}
+.register-now{
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+.error-msg{
+    margin: 0 0 0 5vw;
+    font-size: 1vw;
+    color: red;
+}

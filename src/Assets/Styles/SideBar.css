@@ -1,0 +1,50 @@
+.sidebar-div{
+    width: 15vw;
+    height: 98vh;
+    background-color: rgba(0, 0, 255,0.8);
+    border-radius: 15px;
+    color: white;
+    margin: 1vh 0 0 0.5vw;
+}
+.side-bar-board{
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 10vh;
+    margin-left: 2vw;
+}
+.sidebar-elements{
+    list-style: none;
+}
+.sidebar-elements>li{
+    margin-bottom: 4vh;
+}
+.sibe-bar-icon{
+    font-size: 1.2vw;
+}
+.side-bar-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255,0.8);
+    font-size: 1.3vw;
+    margin: 0 0 0 0.7vw;
+}
+.side-bar-link:hover{
+    color: white;
+    font-size: 1.5vw;
+}
+.side-bar-help-div{
+    margin-top: 40vh;
+    list-style: none;
+}
+.side-bar-help-div>li{
+    margin-top: 1.5vh;
+}
+.side-bar-help{
+    color: rgba(255, 255, 255,0.8);
+    font-size: 1.1vw;
+    margin-left: 1vw;
+    text-decoration: none;
+}
+.side-bar-help:hover{
+    color: white;
+    font-size: 1.3vw;
+}

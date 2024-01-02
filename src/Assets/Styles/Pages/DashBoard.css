@@ -1,0 +1,246 @@
+.modal-open{
+    filter: blur(2px);
+    z-index: -999;
+}
+.dashboard-div{
+    height: 100vh;
+    display: flex;
+    background-color: rgba(121, 153, 212,0.1);
+    position: relative;
+}
+.dashboard-content{
+    margin-left: 3.5vw;
+}
+
+/* --------------------------------- Dashboard-Header ------------------------------- */
+.dashboard-header{
+    margin-top: 3vh;
+    display: flex;
+}
+.dashboard-header-name{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.dashboard-header-search{
+    width: 22vw;
+    height: 4.2vh;
+    margin: 2.5vh 0 0 43vw;
+    background-color: white;
+    border: 0.01vw solid rgba(0, 0, 0,0.3);
+    border-radius: 5px;
+    position: relative;
+}
+.dashboard-search-icon{
+    color: silver;
+    position: absolute;
+    top: 6.6vh;
+    right: 9vw;
+}
+.dashboard-bell-icon{
+    font-size: 1.5vw;
+    margin: 3.2vh 0 0 1.5vw;
+    cursor: pointer;
+}
+.dashboard-header-img{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin: 2vh 0 0 1.5vw;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ------------------------------------- Dashboard Amount cards ---------------------------------- */
+.dashboard-cards{
+    display: flex;
+}
+.dashboard-cards>div{
+    width: 15vw;
+    height: 9vh;
+    padding: 1.5vw;
+    margin-right: 2vw;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2) inset;
+    background-color: white;
+}
+.dashboard-icon{
+    width: 2vw;
+    height: 2vw;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 5vh;
+    margin: -1.5vh 0 -1vh 0;
+    border-radius: 50%;
+    background-color: blue;
+}
+.dashboard-cards>div:first-of-type>.dashboard-icon {
+    background-color: rgba(0, 128, 0,0.7);
+}
+.dashboard-cards>div:nth-child(2)>.dashboard-icon {
+    background-color: rgba(255, 165, 0,0.8);
+}
+.dashboard-cards>div:nth-child(3)>.dashboard-icon {
+    background-color: rgba(255, 162, 177, 1);
+}
+.dashboard-cards>div:last-of-type>.dashboard-icon {
+    background-color: rgba(131, 0, 253,0.6);
+}
+.dashboard-tag{
+    font-size: 1vw;
+}
+.dashboard-count{
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: -1.2vh;
+}
+.dashboard-tax{
+    width: 3vw;
+    height: 2.5vh;
+    color: green;
+    font-size: 0.8vw;
+    text-align: center;
+    line-height: 2.5vh;
+    background-color: rgba(173, 255, 47,0.4);
+    border-radius: 15px;
+    border: 1px solid greenyellow;
+    position: absolute;
+    top: 9vh;
+    left: 14vw;
+}
+
+/* ------------------------------- Dashboard Profile card ------------------------------------ */
+.dashboard-profile-card{
+    width: 25vw;
+    height: 11vw;
+    text-align: center;
+    margin: 5vh 0 0 25vw;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2) inset;
+}
+.profile-card-plus-icon{
+    width: 3vw;
+    height: 8vh;
+    color: rgba(100, 100, 100,1);
+    font-size: 5vw;
+    padding: 0.5vw;
+    margin-top: 3vh;
+    background-color: rgba(192, 192, 192,0.5);
+    border-radius: 60%;
+    cursor: pointer;
+}
+.dashboard-profile-card>p{
+    color: rgb(148, 146, 146);
+    font-size: 1.2vw;
+}
+
+/* ----------------------------- Dashboard Add-New-Profile ------------------------------------ */
+.horizantal-row{
+    width: 26vw;
+    height: 0.2vh;
+    margin-left: -0.5vw;
+    background-color: rgba(192, 192, 192,0.3);
+}
+.add-new-profile{
+    width: 25vw;
+    height: 58vh;
+    padding: 0.5vw;
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 15px;
+    border: 1px solid rgb(130, 129, 129);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2) inset;
+    z-index: 999;
+    position: absolute;
+    top: 15vh;
+    left: 45vw;
+    transform: scale(1.2);
+}
+.new-profile-name{
+    margin: 0 0;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.profile-x-icon{
+    color: rgb(105, 104, 104);
+    font-size: 1.2vw;
+    margin: 0 0 0 13.8vw;
+    cursor: pointer;
+}
+.profile-basic-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-basic{
+    margin-left: 3.5vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile-social{
+    margin-left: 3.5vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile-border-bottom{
+    width: 10vw;
+    height: 0.7vh;
+    background-color: rgba(192, 192, 192,0.7);
+    border-radius: 10px;
+}
+.profile-form1>input{
+    width: 24.5vw;
+    height: 4vh;
+    margin-top: 1.5vh;
+    border: 0.01vw solid rgba(0, 0, 0,0.3);
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-form1>span{
+    font-size: 1.1vw;
+}
+.profile-next-button{
+    width: 4vw;
+    height: 5vh;
+    font-size: 1.3vw;
+    color: white;
+    margin-left: 21vw;
+    background-color: rgb(16, 176, 239);
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+.profile-form2>input{
+    width: 24.5vw;
+    height: 4vh;
+    margin-top: 1.5vh;
+    border: 0.01vw solid rgba(0, 0, 0,0.3);
+    background-color: white;
+    border-radius: 5px;
+}
+.profile-form2>span{
+    font-size: 1.1vw;
+}
+.profile-back-button{
+    width: 4vw;
+    height: 5vh;
+    font-size: 1.3vw;
+    color: black;
+    margin-left: 16.5vw;
+    border: 1px solid rgba(0, 0, 0,0.6);
+    background-color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.profile-done-button{
+    width: 4vw;
+    height: 5vh;
+    font-size: 1.3vw;
+    color: white;
+    margin-left: 0.5vw;
+    background-color: rgb(16, 176, 239);
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}

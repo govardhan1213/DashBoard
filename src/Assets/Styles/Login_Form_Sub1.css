@@ -1,0 +1,57 @@
+.login-form-sub1{
+    background-color: rgba(0, 0, 255,0.65);
+    width: 40vw;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+.login-form-sub1-div{
+    margin-top: 30vh;
+}
+.board{
+    color: white;
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin-left: 15vh;
+}
+.circles{
+    width: 6vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
+    border: 1px solid white;
+    border-radius: 15px 15px 15px 0;
+    background-color: black;
+}
+.circle{
+    width: 2vw;
+    height: 4vh;
+    text-align: center;
+    line-height: 4vh;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circles>.circle:first-of-type{
+    background-color: rgba(255, 0, 0,0.9);
+    z-index: 3;
+}
+.circles>.circle:nth-child(2){
+    background-color: blueviolet;
+    z-index: 2;
+}
+.circles>.circle:last-of-type{
+    background-color: blue;
+    z-index: 1;
+}
+.icons{
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+.icon{
+    color: white;
+    font-size: 1.8vw;
+    margin-left:  2.5vw;
+    cursor: pointer;
+}
